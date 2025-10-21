@@ -17,7 +17,7 @@ export default function Section2() {
           <p className="text-xl font-semibold text-[#00b4d8]">I'm a Developer</p>
           <p className="mb-3 text-2xl font-bold capitalize">i can build amazing web applications.</p>
           <p className="italic">
-            Hello semuanya, Aku alfi, seorang developer yang berdedikasi untuk menciptakan solusi digital yang inovatif.
+            Hello semuanya, Aku mamad, seorang developer yang berdedikasi untuk menciptakan solusi digital yang inovatif.
             memiliki pengalaman pada bidang web development membuat saya memiliki skill untuk mengembangkan aplikasi web
             yang responsif dan user-friendly. dan siap berkolaborasi dengan siapa saja
           </p>
