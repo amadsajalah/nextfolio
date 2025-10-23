@@ -11,7 +11,7 @@ const poppins = Poppins({
 
 // Metadata global (SEO) untuk semua halaman
 export const metadata = {
-  title: 'My Portfolio — Husnul Fikri Averus',
+  title: 'My Portfolio — Dhafa Achmad Favian',
   description: 'Website portofolio pribadi yang menampilkan proyek, skill, dan informasi tentang saya.',
 }
 
