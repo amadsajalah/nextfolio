@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 flex justify-between bg-gradient-to-r from-orange-50 to-amber-50 px-5 py-3 shadow-md backdrop-blur">
       <div className="w-1/6">
-        <p className="cursor-default text-2xl font-bold text-orange-600">ACHMAD</p>
+        <p className="cursor-default text-2xl font-extraboldbold text-orange-600">NAKAMA</p>
       </div>
 
       <div className="flex w-4/6 justify-center gap-5 text-lg font-bold">
