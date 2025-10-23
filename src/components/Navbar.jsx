@@ -21,7 +21,7 @@ export default function Navbar() {
 
       <div className="flex w-1/6 justify-end gap-2">
         <a 
-          href="https://instagram.com/yourusername" 
+          href="https://instagram.com/amadsajalahh" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="cursor-pointer rounded-full p-2 transition-all duration-300 hover:scale-110 hover:bg-orange-200"
@@ -32,7 +32,7 @@ export default function Navbar() {
         </a>
 
         <a 
-          href="https://tiktok.com/@yourusername" 
+          href="https://tiktok.com/@amd2108" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="cursor-pointer rounded-full p-2 transition-all duration-300 hover:scale-110 hover:bg-orange-200"
@@ -43,7 +43,7 @@ export default function Navbar() {
         </a>
 
         <a 
-          href="https://github.com/yourusername" 
+          href="https://github.com/amadsajalah" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="cursor-pointer rounded-full p-2 transition-all duration-300 hover:scale-110 hover:bg-orange-200"
