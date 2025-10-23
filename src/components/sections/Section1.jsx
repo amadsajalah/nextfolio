@@ -4,7 +4,7 @@ export default function Section1() {
       <div id="home" className="flex flex-col">
         {/* Teks sambutan */}
         <div className="mb-2 text-xl text-gray-700">
-          <p>⛵ Ahoy! Welcome to</p>
+          <p>⛵Welcome Guyss!!to</p>
         </div>
 
         {/* Teks utama: MY JOURNEY */}
