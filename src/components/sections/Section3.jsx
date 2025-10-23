@@ -17,9 +17,25 @@ export default function Section3() {
   return (
     <section
       id="favorites"
-      className="flex min-h-[85vh] items-center justify-center bg-gradient-to-b from-white to-orange-50 py-16 scroll-mt-10"
+      className="relative flex min-h-[85vh] items-center justify-center bg-gradient-to-b from-white to-orange-50 py-16 scroll-mt-10 overflow-hidden"
     >
-      <div className="flex w-4/5 flex-col gap-8">
+      {/* 🌍 Background peta samar */}
+      <div
+        className="absolute inset-0 bg-[url('/images/map-bg.png')] bg-cover bg-center opacity-10"
+        aria-hidden="true"
+      ></div>
+
+      {/* ☠️ Logo Jolly Roger transparan */}
+      <div className="absolute inset-0 flex items-center justify-center opacity-10 pointer-events-none">
+        <img
+          src="/images/jollyroger.png"
+          alt="Jolly Roger"
+          className="w-[400px] md:w-[600px]"
+        />
+      </div>
+
+      {/* 🧩 Konten utama */}
+      <div className="relative z-10 flex w-4/5 flex-col gap-8">
         {/* Header */}
         <div className="text-center">
           <p className="mb-2 text-3xl font-bold text-orange-600">
@@ -37,7 +53,7 @@ export default function Section3() {
           ))}
         </div>
 
-        {/* Baris terakhir (Brook & Jinbe di tengah) */}
+        {/* Brook & Jinbe di tengah */}
         <div className="flex justify-center gap-6 mt-6">
           {strawhats.slice(8).map((member, index) => (
             <OnePieceCard key={index} {...member} />
@@ -53,6 +69,16 @@ export default function Section3() {
             Sama kayak Luffy yang punya mimpi jadi Raja Bajak Laut, aku juga punya mimpi buat jadi Web Developer yang handal! 🔥
           </p>
         </div>
+      </div>
+
+      {/* 🌊 Wave di bawah */}
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none z-0">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" className="h-[100px] w-full">
+          <path
+            d="M0.00,49.98 C150.00,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            fill="#fde68a"
+          ></path>
+        </svg>
       </div>
     </section>
   );
