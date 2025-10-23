@@ -1,6 +1,6 @@
 export default function Section1() {
   return (
-    <section className="mb-20 flex min-h-[70vh] items-center justify-center bg-gradient-to-b from-orange-50 to-white">
+    <section className="flex h-screen items-center justify-center bg-gradient-to-b from-orange-50 via-white to-gray-50">
       <div id="home" className="flex flex-col">
         {/* Teks sambutan */}
         <div className="mb-2 text-xl text-gray-700">
